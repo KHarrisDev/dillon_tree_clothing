@@ -27,36 +27,24 @@
           <i class="fa fa-bars"></i>
         </div>
         <div class="logo">
-          <a class="no-text-decoration text-black" href="#"
-            ><h1 class="fs-800 fw-bold uppercase">Dillon Tree Clothing</h1></a
-          >
+          <a href="#"><img src="logo.png" alt="Logo" /></a>
         </div>
         <div class="cart">
-          <a href="#"
-            ><i class="fa-solid fa-cart-shopping" style="color: #000000"></i
-          ></a>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
         </div>
       </nav>
     </header>
-    <div class="flex-column min-height-100">
-      <section class="flex-1 bg-black min-height-100">
-        <div class=""></div>
-      </section>
-      <section class="flex-1 bg-white min-height-100">
-        <div class="container">
-          <h1 class="fs-800 fw-bold uppercase">Dillon Tree Brand</h1>
-          <p class="text-neutral-600 margin-top-bottom-1rem">
-            Express your style <br />
-            with trendy treads
-          </p>
-          <a class="text-black" href="/gallery.html">
-            <button class="margin-top-bottom-1rem button-reset">
-              Explore Brand
-            </button>
-          </a>
-        </div>
-      </section>
-    </div>
-    <script src="/script.js"></script>
+    <form action="#" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
